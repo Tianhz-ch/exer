@@ -57,15 +57,17 @@ public class LC25 {
         return new Pair<>(foot, newFoot);
     }
 
-}
+    class Pair<A, B> {
 
-class Pair<A, B> {
+        public final A a;
+        public final B b;
 
-    public final A a;
-    public final B b;
-
-    public Pair(A a, B b) {
-        this.a = a;
-        this.b = b;
+        public Pair(A a, B b) {
+            this.a = a;
+            this.b = b;
+        }
     }
+
 }
+
+
