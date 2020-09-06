@@ -2,6 +2,7 @@ package base;
 
 /**
  * Definition for singly-linked list.
+ *
  * @author leetcode
  */
 public class ListNode {
